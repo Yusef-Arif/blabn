@@ -1,0 +1,149 @@
+{
+  "items": [
+    { "item": "رمضان", "key": 0 },
+    { "item": "عصائر", "key": 1 },
+    { "item": "اللؤة", "key": 2 },
+    { "item": "دبى", "key": 3  }
+  ],
+  "itemsProducts": [
+    {
+      "key": 0,
+      "item": "رمضان",
+      "products": [
+        {
+          "title": "الحلولوانى",
+          "image": "./images/ramadan1 (1).jpg",
+          "price": 290
+        },
+        {
+          "title": "كيكة هبة دبى جولد",
+          "image": "./images/ramadan1 (2).jpg",
+          "price": 425
+        },
+        {
+          "title": "سمبوسك 6 قطع",
+          "image": "./images/ramadan1 (3).jpg",
+          "price": 95
+        },
+        {
+          "title": "لوز اللوز كبير",
+          "image": "./images/ramadan1 (4).jpg",
+          "price": 245
+        },
+        {
+          "title": "الحلولوانى",
+          "image": "./images/ramadan1 (1).jpg",
+          "price": 290
+        },
+        {
+          "title": "كيكة هبة دبى جولد",
+          "image": "./images/ramadan1 (2).jpg",
+          "price": 425
+        },
+        {
+          "title": "سمبوسك 6 قطع",
+          "image": "./images/ramadan1 (3).jpg",
+          "price": 95
+        },
+        {
+          "title": "لوز اللوز كبير",
+          "image": "./images/ramadan1 (4).jpg",
+          "price": 245
+        }
+      ]
+    },
+    {
+      "key": 1,
+      "item": "عصائر",
+      "products": [
+        {
+          "title": "سوبيا بيستاشيو",
+          "image": "./images/juice (1).jpg",
+          "price": 290
+        },
+        {
+          "title": "مانجو",
+          "image": "./images/juice (2).jpg",
+          "price": 425
+        },
+        {
+          "title": "فراوله",
+          "image": "./images/juice (3).jpg",
+          "price": 95
+        },
+        {
+          "title": "لبن ب تمر",
+          "image": "./images/juice (4).jpg",
+          "price": 245
+        },
+        {
+          "title": "مانجو",
+          "image": "./images/juice (2).jpg",
+          "price": 425
+        },
+        {
+          "title": "فراوله",
+          "image": "./images/juice (3).jpg",
+          "price": 95
+        }
+      ]
+    },
+    {
+      "key": 2,
+      "item": "اللؤة",
+      "products": [
+        {
+          "title": "اللؤة بيستاشيو",
+          "image": "./images/loha.jpg",
+          "price": 425
+        },
+        {
+          "title": "اللؤة للوتس",
+          "image": "./images/loha.jpg",
+          "price": 95
+        },
+        {
+          "title": "اللؤة مانجو",
+          "image": "./images/loha.jpg",
+          "price": 245
+        },
+        {
+          "title": "اللؤة بيستاشيو",
+          "image": "./images/loha.jpg",
+          "price": 425
+        },
+        {
+          "title": "اللؤة للوتس",
+          "image": "./images/loha.jpg",
+          "price": 95
+        },
+        {
+          "title": "اللؤة مانجو",
+          "image": "./images/loha.jpg",
+          "price": 245
+        }
+      ]
+    },{
+      "key": 3,
+      "item": "دبي",
+      "products": [
+        {
+          "title": "فراوليتا دبى",
+          "image": "./images/doubi (1).jpg",
+          "price": 245
+        },
+        {
+          "title": "كريم دى لا كريم دبى",
+          "image": "./images/doubi (2).jpg",
+          "price": 290
+        },
+        {
+          "title":"دبى تشيز بومب",
+          "image": "./images/doubi (3).jpg",
+          "price": 425
+        }
+
+      ]
+    }
+  ]
+}

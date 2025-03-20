@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ب لبن</title>
+    <!-- css files -->
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./input.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="bottom-10 right-5 border-2 border-[#2b88c1] rounded-2xl w-[55px] fixed cursor-pointer z-20 goUp bg-white"
+    >
+      <img src="./images/up-arrow.png" alt="up-arrow" />
+    </div>
+    <header class="py-[10px]">
+      <nav class="container flex justify-between items-center">
+        <a href="#">
+          <img src="./images/icons/logo.svg" alt="logo" width="25%" />
+        </a>
+        <img src="./images/icons/burger-menu.png" alt="menu" class="w-[15%] menu md:hidden">
+        <ul
+          class="flex justify-center items-center gap-7 blue font-bold text-2xl max-sm:hidden navLinks"
+        >
+          <a href="#menu" class="links"> <li>المنيو</li></a>
+          <a href="#about" class="links"> <li>من نحن</li></a>
+          <a href="#contact" class="links"> <li>اتصل بنا</li></a>
+        </ul>
+        <div class="flex w-[30%] justify-end gap-3 max-sm:hidden account">
+          <img src="./images/icons/shopping-cart.png" alt="cart" width="10%" class="cursor-pointer">
+          <button>تسجيل الدخول</button>
+          <button>انشاء حساب</button>
+        </div>
+      </nav>
+    </header>
+    <!-- hero -->
+    <section class="hero">
+      <div class="slider">
+        <span class="next">></span>
+        <span class="prev">&lt;</span>
+      </div>
+    </section>
+    <!-- menu -->
+    <section class="container my-[10%]" id="menu">
+      <div class="heading">
+        <div class="heading-content">
+          <h1>المنيو</h1>
+        </div>
+      </div>
+      <div class="content">
+        <div class="items flex justify-center gap-3 items-center"></div>
+        <div
+          class="products min-h-[100vh] gap-4 my-5 lg:grid-cols-4 grid items-start md:grid-cols-3 max-sm:grid-cols-2"
+        ></div>
+      </div>
+    </section>
+    <!-- about-us -->
+    <section class="container my-[10%]" id="about">
+      <div class="heading">
+        <div class="heading-content">
+          <h1>من نحن</h1>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-5 max-sm:flex-col">
+          <img
+            src="./images/about-us.jpg"
+            alt=""
+            class="rounded-3xl showUp md:w-[30%] max-sm:w-[100%]"
+          />
+          <div
+            class="flex flex-col gap-5 items-end text-end blue font-bold text-xl md:autoBlur max-sm:m-3 "
+          >
+            <p>
+              "بــ لبن" هو محل مصري متخصص في تقديم الحلويات المصنوعة من منتجات
+              الألبان الطبيعية بنسبة 100%، مما يضمن جودة وطعماً مميزاً لعملائه.
+            </p>
+            <p>
+              <span class="text-2xl font-extrabold">رسالتنا: </span> نحن في "بــ
+              لبن" نسعى لتقديم تجربة فريدة لعشاق الحلويات، حيث ندمج بين التراث
+              المصري الأصيل والابتكار الحديث لنقدم منتجات تلبي تطلعات عملائنا
+              وتفوق توقعاتهم.
+            </p>
+            <p>
+              <span class="text-2xl font-extrabold">منتجاتنا: </span> نقدم
+              مجموعة متنوعة من الحلويات المستوحاة من المطبخ المصري التقليدي، مع
+              لمسة عصرية، باستخدام أجود أنواع الألبان الطبيعية لضمان أفضل جودة
+              وطعم.
+            </p>
+            <p>
+              <span class="text-2xl font-extrabold">فروعنا:</span> نحن متواجدون
+              في العديد من المحافظات المصرية، مما يتيح لعملائنا الوصول إلينا
+              بسهولة. يمكنكم زيارة أقرب فرع لكم لتجربة منتجاتنا المميزة.
+            </p>
+            <p>
+              <span class="text-2xl font-extrabold">تواجدنا الرقمي: </span>
+              لمتابعة أحدث منتجاتنا وعروضنا، يمكنكم زيارة صفحاتنا الرسمية على
+              مواقع التواصل الاجتماعي:
+            </p>
+            <div class="flex gap-3 social"></div>
+            <p>
+              نحن في "بــ لبن" نؤمن بأن الجودة والابتكار هما مفتاح رضا عملائنا،
+              ونسعى دائماً لتقديم الأفضل.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact-us -->
+    <section class="container my-[10%]" id="contact">
+      <div class="heading">
+        <div class="heading-content">
+          <h1>اتصل بنا</h1>
+        </div>
+      </div>
+      <div
+        class="contact flex justify-between items-center gap-7 p-[50px] rounded-2xl m-[5%] max-sm:flex-col"
+      >
+        <div>
+          <form>
+            <div
+              class="flex flex-col gap-5 items-start blue font-bold text-xl text-start"
+            >
+              <label for="name">الاسم:</label>
+              <input type="text" id="name" />
+              <label for="email">البريد الالكتروني:</label>
+              <input type="email" id="email" />
+              <label for="message">الرسالة:</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <button>ارسال</button>
+            </div>
+          </form>
+        </div>
+        <div class="frame">
+          <iframe
+            class="showUp max-sm:m-5"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54994.65126232011!2d31.420086341796875!3d30.51635320000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7e734acb78021%3A0xd67f76394c24a423!2z2KjZhNio2YY!5e0!3m2!1sar!2seg!4v1741896609513!5m2!1sar!2seg"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-[#257cb3] py-[5%]">
+      <div class="container flex max-sm:flex-col justify-between items-center">
+        <div class="w-[50%]">
+          <img
+            src="./images/icons/logo.svg"
+            alt=""
+            class="bg-[white] md:w-[10%] max-sm:w-[50%]"
+          />
+          <p class="text-white md:max-w-[50%] my-5">
+            "بــ لبن" هو محل مصري متخصص في تقديم الحلويات المصنوعة من منتجات
+            الألبان الطبيعية بنسبة 100%، مما يضمن جودة وطعماً مميزاً لعملائه.
+          </p>
+          <div class="flex gap-[20px] social"></div>
+        </div>
+        <ul class="flex justify-start items-end text-white flex-col gap-3 max-sm:mt-5">
+          <h1 class="font-bold text-2xl">لينكات مهمه:</h1>
+          <a href="#menu"> <li>المنيو</li></a>
+          <a href="#about"> <li>من نحن</li></a>
+          <a href="#contact"> <li>اتصل بنا</li></a>
+        </ul>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
