@@ -17,7 +17,7 @@ Sweet Egypt is a modern, fully responsive website for an Egyptian sweets shop. B
 ## 🚀 How to Run
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Yusef-Arif/SweetEgypt.git
+   git clone https://github.com/Yusef-Arif/blabn
    ```
 2. Open `index.html` in your browser.
 
